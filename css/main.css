@@ -752,7 +752,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     display: flex;
     align-items: center;
 }
-.about-wrap img{
+.about-wrap {
     width: 100%;
 }
 
@@ -762,14 +762,14 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     margin-bottom: 20px;
 }
 .about-content p{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /* ==========================================================================
    10.0 Page Header Section
    ========================================================================== */
 .page-header{
-    padding: 150px 0;
+    padding: 60px 0;
 }
 .page-header .meta-info{
     margin-top: 30px;
@@ -1207,7 +1207,6 @@ span.date{
 .footer-widget-section{
     background-color: #111;
 }
-.footer-widget{}
 .footer-widget h2 {
     font-size: 32px;
     font-weight: 800;
@@ -1218,14 +1217,13 @@ span.date{
     width: 60px;
     height: 4px;
     background: #e0e0e0 none repeat;
-    margin-top: 15px;
-    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
 }
 
-/* .footer-widget .address{} */
 .footer-widget .address li{
     display: block;
     /* line-height: 30px; */
@@ -1246,11 +1244,6 @@ span.date{
     position: absolute;
     left: 0;
     top: 0;
-}
-.footer-widget .address li a{
-    color: #777;
-    font-family: "Open Sans", sans-serif;
-    letter-spacing: inherit;
 }
 
 /*Social Icon*/
